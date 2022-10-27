@@ -1,0 +1,38 @@
+
+
+.grid-container {
+border: 4px solid black;
+display: grid;
+grid-template-columns: 100px repeat(2, 1fr);
+grid-template-rows: 100px;
+grid-auto-rows: 200px;
+grid-auto-columns: 50px;
+}
+/* Comment goes here */
+
+{
+.grid-item{
+    border: 2px solid mediumturquoise;
+    padding: 10px;
+
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+body {
+background-color: azure;
+line-height: 1.5;
+font-family: "Work Sans", sans-serif;
+}
+.wrapper * {
+    background: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+  }
